@@ -4,7 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity">
+    tools:context=".InicioActivity">
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lotie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_fileName="16230-gift-opening.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
