@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">GB Ofertas</string>
+    <array name="icons">
+        <item>@drawable/inicio</item>
+        <item>@drawable/subir</item>
+        <item>@drawable/ofertas</item>
+        <item>@drawable/informacion</item>
+    </array>
+    <array name="colors">
+        <item>@android:color/holo_orange_light</item>
+        <item>@android:color/holo_green_dark</item>
+        <item>@android:color/holo_red_light</item>
+        <item>@android:color/holo_purple</item>
+    </array>
 </resources>
