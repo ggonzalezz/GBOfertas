@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".MainMenuActivity"></activity>
+        <activity android:name=".RemoverOfertasActivity" />
+        <activity android:name=".MenuDosActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name="ofertas.OfertasActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".InicioActivity">

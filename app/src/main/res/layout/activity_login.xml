@@ -23,7 +23,6 @@
             app:civ_border_color="@color/colorTexto"
             />
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/gmail"
             android:layout_width="match_parent"
             app:counterTextColor="@color/colorTexto"
             app:hintTextColor="@color/colorTexto"
@@ -36,6 +35,7 @@
             android:layout_marginEnd="10dp"
             android:hint="Write the email">
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/gmail"
                 android:textColorHint="@color/colorTexto"
                 android:textColor="@color/colorTexto"
                 android:textColorLink="@color/colorTexto"
@@ -47,7 +47,6 @@
                 android:theme="@style/CampoTextoPurpura"/>
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/password"
             android:layout_width="match_parent"
             app:counterTextColor="@color/colorTexto"
             app:hintTextColor="@color/colorTexto"
@@ -64,6 +63,7 @@
             app:passwordToggleDrawable="@drawable/ic_view_pass"
             >
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
                 android:textColorHint="@color/colorTexto"
                 android:textColor="@color/colorTexto"
                 android:textColorLink="@color/colorTexto"
@@ -76,11 +76,11 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.skydoves.elasticviews.ElasticCheckButton
-
+            android:id="@+id/login"
             android:layout_marginTop="100dp"
             android:gravity="center"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:background="@color/colorTexto"

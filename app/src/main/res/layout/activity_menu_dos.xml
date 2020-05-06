@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MenuDosActivity">
+    <TextView
+        android:id="@+id/texto"
+        android:textColor="#800000"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese su Oferta"
+        android:gravity="center"
+        android:layout_centerHorizontal="true">
+    </TextView>
+    <EditText
+        android:textColor="#000000"
+        android:id="@+id/edtFileName"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/texto"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:hint="Escriba la Oferta"></EditText>
+    <EditText
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:id="@+id/edtDescription"
+        android:layout_width="match_parent"
+        android:layout_marginTop="55dp"
+        android:layout_height="wrap_content"
+        android:hint="Descripción de la Oferta"></EditText>
+
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/progress_bar"
+        android:layout_below="@+id/edtDescription"
+        android:layout_marginTop="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSubir"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16sp" />
+
+
+    <com.skydoves.elasticviews.ElasticButton
+        android:id="@+id/btnSubir"
+        android:text="Subir Oferta"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="#020303"
+        android:background="@drawable/shape"
+        android:layout_marginStart="210dp"
+        android:layout_marginBottom="38dp"
+        android:textSize="15sp"
+        app:button_cornerRadius="4dp"
+        app:button_duration="250"
+        app:button_scale="0.87" />
+
+
+    <com.skydoves.elasticviews.ElasticButton
+        android:id="@+id/btnEligeImagen"
+        android:textColor="#020303"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSubir"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="-49dp"
+        android:background="@drawable/shape"
+        android:text="Buscar Archivo"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        app:button_cornerRadius="4dp"
+        app:button_duration="250"
+        app:button_scale="0.87" />
+
+</RelativeLayout>
